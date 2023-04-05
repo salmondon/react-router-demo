@@ -1,0 +1,64 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+.content {
+    text-align: center;
+    margin-top: 25%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+
+  .nav-links a:visited {
+    color: blue;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+  }
+  
+  .active-link {
+    font-weight: bold;
+  }
+
+  .redirect-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .redirect-button:hover {
+    background-color: #0062cc;
+  }
+  
